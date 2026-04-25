@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alfiya Khan — Frontend Developer</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#home" class="nav-logo">AK.</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certs">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="ham">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+    <div class="hero-grid-lines"></div>
+
+    <!-- Hero Profile Image -->
+    <div class="hero-profile-img" id="heroArt">
+      <img src="hero-avatar.png" alt="Alfiya Khan">
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-pill">
+        <span class="dot"></span>
+        Available for opportunities
+      </div>
+      <h1 class="hero-name">
+        <span>Alfiya</span>
+        <span class="gradient-text">Khan.</span>
+      </h1>
+      <p class="hero-sub">
+        Frontend Developer crafting <strong>beautiful, responsive</strong> web experiences with modern technologies.
+        <strong>Fresher</strong> · Maharashtra, India
+      </p>
+      <div class="hero-cta">
+        <a href="#project" class="btn-glow btn-violet">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6" />
+            <polyline points="8 6 2 12 8 18" />
+          </svg>
+          View My Work
+        </a>
+        <a href="#contact" class="btn-glow btn-outline-glow">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+          </svg>
+          Let's Talk
+        </a>
+      </div>
+    </div>
+
+
+
+    <div class="scroll-ind">
+      <span>Scroll</span>
+      <div class="scroll-line-anim"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-section" id="about">
+    <div class="sec-tag reveal"><span class="line"></span> About Me</div>
+    <div class="about-grid">
+      <div class="reveal-left">
+        <h2 class="sec-title">Crafting the Web,<br>One Line at a <span class="hl">Time</span></h2>
+        <p class="about-text">
+        <p>I am a Computer Science student and an aspiring Frontend Developer with a strong passion for building
+          responsive, user-friendly web applications using modern web technologies.</p>
+        <p>I've built a live Resume Builder app, actively contribute on GitHub, and lead real initiatives — like the
+          Green Club Coordinator role — where I've demonstrated leadership and teamwork beyond the screen.</p>
+        <p>I'm continuously levelling up my skills, driven by curiosity and a desire to create impactful digital
+          experiences.</p>
+        </p>
+      </div>
+      <div class="about-cards reveal-right">
+        <div class="acard delay1">
+          <div class="acard-icon" style="background:rgba(124,92,252,0.12);">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7c5cfc" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+          </div>
+          <div class="acard-num" style="color:var(--violet-light)">1+</div>
+          <div class="acard-label">Live Projects Deployed</div>
+        </div>
+        <div class="acard delay2">
+          <div class="acard-icon" style="background:rgba(0,212,255,0.1);">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#00d4ff" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+          </div>
+          <div class="acard-num" style="color:var(--cyan)">7+</div>
+          <div class="acard-label">Certifications Earned</div>
+        </div>
+        <div class="acard delay3">
+          <div class="acard-icon" style="background:rgba(255,107,157,0.1);">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ff6b9d" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <div class="acard-num" style="color:var(--rose)">2024</div>
+          <div class="acard-label">Green Club Coordinator</div>
+        </div>
+        <div class="acard delay4">
+          <div class="acard-icon" style="background:rgba(255,179,71,0.1);">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffb347" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg>
+          </div>
+          <div class="acard-num" style="color:var(--amber)">MH</div>
+          <div class="acard-label">Maharashtra, India</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="sec-tag reveal"><span class="line"></span> Skills</div>
+    <h2 class="sec-title reveal">My <span class="hl">Toolkit</span></h2>
+    <div class="skills-wrap">
+      <!-- Frontend -->
+      <div class="skill-card reveal delay1">
+        <div class="sk-head">
+          <div class="sk-icon" style="background:rgba(124,92,252,0.12);">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7c5cfc" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+          </div>
+          <div class="sk-title" style="color:var(--violet-light)">Frontend</div>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span class="name">HTML5 & CSS3</span><span class="pct">85%</span></div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill fill-violet" data-width="0.85"></div>
+            </div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span class="name">JavaScript</span><span class="pct">70%</span></div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill fill-violet" data-width="0.70"></div>
+            </div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span class="name">Responsive Design</span><span class="pct">80%</span></div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill fill-violet" data-width="0.80"></div>
+            </div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span class="name">DOM Manipulation</span><span class="pct">70%</span></div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill fill-violet" data-width="0.70"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tools -->
+      <div class="skill-card cyan-card reveal delay2">
+        <div class="sk-head">
+          <div class="sk-icon" style="background:rgba(0,212,255,0.1);">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00d4ff" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 20h9" />
+              <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
+            </svg>
+          </div>
+          <div class="sk-title" style="color:var(--cyan)">Tools & Other</div>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span class="name">GitHub</span><span class="pct">75%</span></div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill fill-cyan" data-width="0.75"></div>
+            </div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span class="name">Python</span><span class="pct">60%</span></div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill fill-cyan" data-width="0.60"></div>
+            </div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span class="name">SQL</span><span class="pct">55%</span></div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill fill-cyan" data-width="0.55"></div>
+            </div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span class="name">GitHub Pages</span><span class="pct">75%</span></div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill fill-cyan" data-width="0.75"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Soft -->
+      <div class="skill-card rose-card reveal delay3">
+        <div class="sk-head">
+          <div class="sk-icon" style="background:rgba(255,107,157,0.1);">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ff6b9d" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+            </svg>
+          </div>
+          <div class="sk-title" style="color:var(--rose)">Soft Skills</div>
+        </div>
+        <div class="skill-tags">
+          <span class="stag rose">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            </svg>
+            Communication
+          </span>
+          <span class="stag amber">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+            Leadership
+          </span>
+          <span class="stag violet">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+            </svg>
+            Teamwork
+          </span>
+          <span class="stag cyan">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="12" y1="8" x2="12" y2="12" />
+              <line x1="12" y1="16" x2="12.01" y2="16" />
+            </svg>
+            Problem Solving
+          </span>
+          <span class="stag rose">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+            Time Management
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT -->
+  <section class="projects-section" id="project">
+    <div class="sec-tag reveal"><span class="line"></span> Projects</div>
+    <h2 class="sec-title reveal">Featured <span class="hl">Work</span></h2>
+    <div class="reveal" style="margin-top:3rem">
+      <div class="project-hero-card">
+        <div class="proj-visual">
+          <!-- SVG Browser Mockup -->
+          <svg viewBox="0 0 300 220" width="300" xmlns="http://www.w3.org/2000/svg"
+            style="position:relative;z-index:1;filter:drop-shadow(0 20px 60px rgba(0,0,0,0.5))">
+            <defs>
+              <linearGradient id="browserGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#1a1a30" />
+                <stop offset="100%" stop-color="#0f0f1e" />
+              </linearGradient>
+              <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#7c5cfc" />
+                <stop offset="100%" stop-color="#00d4ff" />
+              </linearGradient>
+              <clipPath id="browserClip">
+                <rect x="0" y="0" width="300" height="220" rx="10" />
+              </clipPath>
+            </defs>
+            <!-- window -->
+            <rect x="0" y="0" width="300" height="220" rx="10" fill="url(#browserGrad)" stroke="rgba(124,92,252,0.25)"
+              stroke-width="1" />
+            <!-- titlebar -->
+            <rect x="0" y="0" width="300" height="32" rx="10" fill="#1e1e30" />
+            <rect x="0" y="22" width="300" height="10" fill="#1e1e30" />
+            <!-- dots -->
+            <circle cx="16" cy="16" r="5" fill="#ff5f57" />
+            <circle cx="32" cy="16" r="5" fill="#febc2e" />
+            <circle cx="48" cy="16" r="5" fill="#28c840" />
+            <!-- url bar -->
+            <rect x="64" y="8" width="170" height="16" rx="4" fill="rgba(255,255,255,0.05)" />
+            <text x="149" y="20" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.4)"
+              text-anchor="middle">alfiya-resume-builder.github.io</text>
+            <!-- progress bar -->
+            <rect x="0" y="32" width="300" height="2" fill="rgba(255,255,255,0.04)" />
+            <rect x="0" y="32" width="200" height="2" fill="url(#barGrad)" />
+            <!-- content area -->
+            <!-- header block -->
+            <rect x="10" y="44" width="280" height="30" rx="4" fill="rgba(124,92,252,0.08)"
+              stroke="rgba(124,92,252,0.15)" stroke-width="0.5" />
+            <text x="20" y="63" font-family="sans-serif" font-size="11" font-weight="bold" fill="#9b7dff">Resume
+              Builder</text>
+            <rect x="240" y="50" width="40" height="14" rx="7" fill="url(#barGrad)" />
+            <text x="260" y="61" font-family="sans-serif" font-size="7" fill="#fff" text-anchor="middle">Export</text>
+            <!-- form fields -->
+            <rect x="10" y="82" width="130" height="10" rx="3" fill="rgba(255,255,255,0.04)"
+              stroke="rgba(255,255,255,0.08)" stroke-width="0.5" />
+            <text x="16" y="90" font-family="sans-serif" font-size="7" fill="rgba(255,255,255,0.3)">Full Name</text>
+            <rect x="150" y="82" width="140" height="10" rx="3" fill="rgba(255,255,255,0.04)"
+              stroke="rgba(255,255,255,0.08)" stroke-width="0.5" />
+            <text x="156" y="90" font-family="sans-serif" font-size="7" fill="rgba(255,255,255,0.3)">Email</text>
+            <rect x="10" y="100" width="280" height="10" rx="3" fill="rgba(255,255,255,0.04)"
+              stroke="rgba(255,255,255,0.08)" stroke-width="0.5" />
+            <text x="16" y="108" font-family="sans-serif" font-size="7" fill="rgba(255,255,255,0.3)">Professional
+              Summary...</text>
+            <!-- skills section -->
+            <text x="10" y="125" font-family="sans-serif" font-size="8" fill="rgba(124,92,252,0.8)"
+              font-weight="bold">SKILLS</text>
+            <rect x="10" y="130" width="45" height="12" rx="6" fill="rgba(124,92,252,0.15)"
+              stroke="rgba(124,92,252,0.3)" stroke-width="0.5" />
+            <text x="32" y="139" font-family="sans-serif" font-size="7" fill="#9b7dff" text-anchor="middle">HTML</text>
+            <rect x="60" y="130" width="45" height="12" rx="6" fill="rgba(0,212,255,0.1)" stroke="rgba(0,212,255,0.25)"
+              stroke-width="0.5" />
+            <text x="82" y="139" font-family="sans-serif" font-size="7" fill="#00d4ff" text-anchor="middle">CSS3</text>
+            <rect x="110" y="130" width="50" height="12" rx="6" fill="rgba(255,179,71,0.1)"
+              stroke="rgba(255,179,71,0.25)" stroke-width="0.5" />
+            <text x="135" y="139" font-family="sans-serif" font-size="7" fill="#ffb347"
+              text-anchor="middle">JavaScript</text>
+            <!-- preview -->
+            <rect x="10" y="152" width="135" height="58" rx="4" fill="rgba(255,255,255,0.02)"
+              stroke="rgba(124,92,252,0.15)" stroke-width="0.5" />
+            <text x="77" y="168" font-family="sans-serif" font-size="8" fill="rgba(255,255,255,0.15)"
+              text-anchor="middle">PREVIEW</text>
+            <rect x="18" y="172" width="60" height="4" rx="2" fill="rgba(255,255,255,0.08)" />
+            <rect x="18" y="180" width="100" height="3" rx="1.5" fill="rgba(255,255,255,0.05)" />
+            <rect x="18" y="186" width="80" height="3" rx="1.5" fill="rgba(255,255,255,0.05)" />
+            <rect x="18" y="192" width="90" height="3" rx="1.5" fill="rgba(255,255,255,0.05)" />
+            <rect x="155" y="152" width="135" height="58" rx="4" fill="rgba(124,92,252,0.05)"
+              stroke="rgba(124,92,252,0.15)" stroke-width="0.5" />
+            <text x="222" y="185" font-family="sans-serif" font-size="9" fill="rgba(124,92,252,0.4)"
+              text-anchor="middle">Live Preview</text>
+          </svg>
+          <!-- tech chips below visual -->
+          <div class="tech-chips" style="position:relative;z-index:1;margin-top:1.5rem;justify-content:center;">
+            <span class="tchip">HTML5</span>
+            <span class="tchip">CSS3</span>
+            <span class="tchip">JavaScript</span>
+            <span class="tchip">GitHub Pages</span>
+          </div>
+        </div>
+        <div class="proj-info">
+          <div class="proj-badge">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+            Featured Project
+          </div>
+          <h3 class="proj-name">Resume Builder<br>Application</h3>
+          <p class="proj-desc">A web app that lets users create professional resumes by filling out a structured form —
+            with real-time preview and clean output.</p>
+          <ul class="proj-features">
+            <li><span class="feat-dot"></span>User-friendly structured form interface</li>
+            <li><span class="feat-dot"></span>Instant live resume preview</li>
+            <li><span class="feat-dot"></span>Clean, print-ready resume layout</li>
+            <li><span class="feat-dot"></span>Deployed live on GitHub Pages</li>
+          </ul>
+          <div class="proj-btns">
+            <a href="#" class="btn-glow btn-violet" style="font-size:0.78rem;padding:0.65rem 1.4rem;">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+              GitHub
+            </a>
+            <a href="#" class="btn-glow btn-outline-glow" style="font-size:0.78rem;padding:0.65rem 1.4rem;">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                <polyline points="15 3 21 3 21 9" />
+                <line x1="10" y1="14" x2="21" y2="3" />
+              </svg>
+              Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="sec-tag reveal"><span class="line"></span> Education</div>
+    <h2 class="sec-title reveal">Academic <span class="hl">Background</span></h2>
+    <div style="margin-top:3rem">
+      <div class="edu-card reveal">
+        <div class="edu-icon-wrap">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z" stroke="url(#eduGrad)" stroke-width="1.8" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M6 12v5c3 3 9 3 12 0v-5" stroke="url(#eduGrad)" stroke-width="1.8" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <defs>
+              <linearGradient id="eduGrad" x1="0" y1="0" x2="24" y2="24">
+                <stop stop-color="#7c5cfc" />
+                <stop offset="1" stop-color="#00d4ff" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div>
+          <div class="edu-degree">B.Sc. — Computer Science / Information Technology</div>
+          <div class="edu-college">A.E. Kalsekar Degree College · Maharashtra, India</div>
+          <div class="edu-status">
+            <span class="dot"></span>
+            Currently Enrolled
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTS -->
+  <section class="certs-section" id="certs">
+    <div class="sec-tag reveal"><span class="line"></span> Certifications & Achievements</div>
+    <h2 class="sec-title reveal">Recognition &amp; <span class="hl">Milestones</span></h2>
+    <div class="certs-grid">
+      <div class="cert-card c1 reveal delay1">
+        <div class="cert-icon-box" style="background:rgba(124,92,252,0.1);">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7c5cfc" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="8" r="6" />
+            <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11" />
+          </svg>
+        </div>
+        <div class="cert-title">Certificate of Excellence — National Wildlife Quiz</div>
+        <div class="cert-org">World Wildlife Day 2024 · Sarus Nature Club · Maharashtra College</div>
+        <span class="cert-tag"
+          style="color:var(--violet-light);border-color:rgba(124,92,252,0.25);background:rgba(124,92,252,0.07)">National
+          Level · 2024</span>
+      </div>
+      <div class="cert-card c2 reveal delay2">
+        <div class="cert-icon-box" style="background:rgba(0,212,255,0.08);">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00d4ff" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <line x1="2" y1="12" x2="22" y2="12" />
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+          </svg>
+        </div>
+        <div class="cert-title">Climate Change &amp; Water Management</div>
+        <div class="cert-org">Govt. of Maharashtra · UNICEF · ACWADAM · CEE</div>
+        <span class="cert-tag"
+          style="color:var(--cyan);border-color:rgba(0,212,255,0.25);background:rgba(0,212,255,0.07)">Environmental
+          Course</span>
+      </div>
+      <div class="cert-card c3 reveal delay3">
+        <div class="cert-icon-box" style="background:rgba(255,107,157,0.08);">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ff6b9d" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          </svg>
+        </div>
+        <div class="cert-title">State Level Water Management Workshop</div>
+        <div class="cert-org">Green Club &amp; Dept. of Botany · A.E. Kalsekar Degree College</div>
+        <span class="cert-tag"
+          style="color:var(--rose);border-color:rgba(255,107,157,0.25);background:rgba(255,107,157,0.07)">State
+          Level</span>
+      </div>
+      <div class="cert-card c4 reveal delay4">
+        <div class="cert-icon-box" style="background:rgba(255,179,71,0.08);">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffb347" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6" />
+            <polyline points="8 6 2 12 8 18" />
+          </svg>
+        </div>
+        <div class="cert-title">MindSpark 2K24 — Code Jammer Event</div>
+        <div class="cert-org">Inter-Collegiate Technical Fest · Info-Tech Committee</div>
+        <span class="cert-tag"
+          style="color:var(--amber);border-color:rgba(255,179,71,0.25);background:rgba(255,179,71,0.07)">Technical Fest
+          · 2024</span>
+      </div>
+      <div class="cert-card c5 reveal delay1">
+        <div class="cert-icon-box" style="background:rgba(40,200,64,0.08);">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#28c840" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+            <polyline points="22 4 12 14.01 9 11.01" />
+          </svg>
+        </div>
+        <div class="cert-title">Enthusiasm Certificate (Green Club)</div>
+        <div class="cert-org">Green Club Activities</div>
+        <span class="cert-tag"
+          style="color:#28c840;border-color:rgba(40,200,64,0.25);background:rgba(40,200,64,0.07)">Awarded for Active Participation</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEADERSHIP -->
+  <section id="leadership" style="background:var(--bg2)">
+    <div class="sec-tag reveal"><span class="line"></span> Leadership</div>
+    <h2 class="sec-title reveal">Leading with <span class="hl">Purpose</span></h2>
+    <div style="margin-top:3rem">
+      <div class="lead-card reveal">
+        <div class="lead-top">
+          <div class="lead-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                fill="none" stroke="#ffb347" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <div>
+            <div class="lead-role">Coordinator — Green Club Campaign</div>
+            <div class="lead-org">A.E. Kalsekar Degree College · Maharashtra, India</div>
+            <div class="lead-period">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                <line x1="16" y1="2" x2="16" y2="6" />
+                <line x1="8" y1="2" x2="8" y2="6" />
+                <line x1="3" y1="10" x2="21" y2="10" />
+              </svg>
+              2024 – 2025
+            </div>
+          </div>
+        </div>
+        <p class="lead-desc">Managed and coordinated Green Club activities across campus, demonstrating strong
+          leadership, teamwork, and organizational skills. Led initiatives to raise environmental awareness and mobilize
+          student participation in impactful campaigns.</p>
+      </div>
+
+      <div class="lead-card reveal" style="margin-top:2rem">
+        <div class="lead-top">
+          <div class="lead-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="none" stroke="#7c5cfc" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <div>
+            <div class="lead-role">Council Member</div>
+            <div class="lead-org">A.E. Kalsekar Degree College · Maharashtra, India</div>
+            <div class="lead-period">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                <line x1="16" y1="2" x2="16" y2="6" />
+                <line x1="8" y1="2" x2="8" y2="6" />
+                <line x1="3" y1="10" x2="21" y2="10" />
+              </svg>
+              2024 – 2025
+            </div>
+          </div>
+        </div>
+        <p class="lead-desc">Actively contributed to organizing and managing college activities and events.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="sec-tag reveal"><span class="line"></span> Contact</div>
+    <div class="contact-wrap">
+      <div class="reveal-left">
+        <h2 class="sec-title">Let's Build<br><span class="hl">Together</span></h2>
+        <p style="color:var(--muted);font-size:0.92rem;line-height:1.8;margin:1rem 0 2rem;max-width:400px;">Open to
+          opportunities, collaborations, and conversations. I'd love to connect and create something amazing!</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="c-icon" style="background:rgba(124,92,252,0.1);">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7c5cfc" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </div>
+            <div>
+              <div class="c-label">Email</div>
+              <div class="c-val">khanalfiya020205@gmail.com</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="c-icon" style="background:rgba(0,212,255,0.1);">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00d4ff" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.4a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.73h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+            </div>
+            <div>
+              <div class="c-label">Phone</div>
+              <div class="c-val">+91 9137198177</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="c-icon" style="background:rgba(255,107,157,0.1);">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ff6b9d" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <div>
+              <div class="c-label">Location</div>
+              <div class="c-val">Maharashtra, India</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal-right">
+        <div class="contact-form">
+          <div class="form-row">
+            <div class="fgroup">
+              <label class="flabel">Your Name</label>
+              <input class="finput" type="text" placeholder="Enter your name">
+            </div>
+            <div class="fgroup">
+              <label class="flabel">Email</label>
+              <input class="finput" type="email" placeholder="your@email.com">
+            </div>
+          </div>
+          <div class="fgroup">
+            <label class="flabel">Subject</label>
+            <input class="finput" type="text" placeholder="What's this about?">
+          </div>
+          <div class="fgroup">
+            <label class="flabel">Message</label>
+            <textarea class="ftextarea" placeholder="Write your message here..."></textarea>
+          </div>
+          <button class="btn-glow btn-violet" style="align-self:flex-start;margin-top:0.5rem;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13" />
+              <polygon points="22 2 15 22 11 13 2 9 22 2" />
+            </svg>
+            Send Message
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="foot-brand">Alfiya Khan</span>
+    <span>© 2025 · Frontend Developer · Maharashtra</span>
+    <div class="foot-links">
+      <a href="https://github.com/khanalfiya020205-hue" target="_blank" title="GitHub">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+        </svg>
+      </a>
+      <a href="mailto:khanalfiya020205@gmail.com" title="Email">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+          <polyline points="22,6 12,13 2,6" />
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
